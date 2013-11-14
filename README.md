@@ -1,4 +1,4 @@
 Adelinda
 ========
 
-This site will be more the story that I've been writing.
+This site will be about the story that I've been writing.
