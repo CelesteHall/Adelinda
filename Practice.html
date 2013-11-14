@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<style type="text/css">
+		body {
+			background-color: black;
+		}
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans', 'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: auto;
+}
+#cssmenu ul {
+  background: #333333;
+  height: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu li {
+  float: left;
+  padding: 0px;
+}
+#cssmenu li a {
+  background: #333333 url('seperator.png') bottom right no-repeat;
+  display: block;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#cssmenu > ul > li > a {
+  color: #cccccc;
+}
+#cssmenu ul ul a {
+  color: #cccccc;
+}
+#cssmenu li > a:hover,
+#cssmenu ul li:hover > a {
+  background: #c90606 url('hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#cssmenu li ul {
+  background: #333333;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 225px;
+  z-index: 200;
+  /*top:1em;
+	/*left:0;*/
+
+}
+#cssmenu li:hover ul {
+  display: block;
+}
+#cssmenu li li {
+  background: url('sub_sep.png') bottom left no-repeat;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 225px;
+}
+#cssmenu li:hover li a {
+  background: none;
+}
+#cssmenu li ul a {
+  display: block;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:hover,
+#cssmenu li ul li:hover > a {
+  background: #c90606 url('hover_sub.png') center left no-repeat;
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#cssmenu p {
+  clear: left;
+}
+
+
+	</style>
+</head>
+
+<body>
+
+<table align="center">
+	<tr><td><img src="Title.png"></td></tr>
+</table>
+
+<div id='cssmenu'>
+<ul>
+	<li>
+		<img src="spacer2.png">
+	</li>
+   <li class='has-sub'><a href='index.html'><span>Home</span></a>
+      <ul>
+         <li><a href='#'><span>About the Author</span></a></li>
+         <li><a href='#'><span>Second Page</span></a></li>
+         <li class='last'><a href='#'><span>Contacts Us</span></a></li>
+      </ul>
+   </li>
+   <li>
+		<img src="Spacer3.png">
+   </li>
+   <li class='has-sub'><a href='#'><span>The Book</span></a>
+      <ul>
+         <li><a href='#'><span>Summary</span></a></li>
+         <li class='last'><a href='#'><span>Start Reading</span></a></li>
+      </ul>
+   </li>
+   <li>
+		<img src="Spacer.png">
+   </li>
+   <li class='has-sub last'><a href='#'><span>Behind the Scenes</span></a>
+      <ul>
+         <li class='last'><a href='#'><span>The Music</span></a></li>
+      </ul>
+   </li>
+</ul>
+</div>
+
+</body>
+
+</html>
